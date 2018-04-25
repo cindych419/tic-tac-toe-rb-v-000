@@ -71,5 +71,8 @@ def turn(board)
     end
   end
 def play(board)
-input = gets
+while !over?(board)
+  turn(board)
 end
+
+ 
